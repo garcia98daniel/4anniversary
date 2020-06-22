@@ -30,6 +30,7 @@ function App() {
 	const [timerHours, setTimerHours] = useState('00');
 	const [timerMinutes, setTimerMinutes] = useState('00');
 	const [timerSeconds, setTimerSeconds] = useState('00');
+	const [ahora0, setAhora0] = useState(0);
 
 	let interval = useRef();
 
@@ -48,10 +49,11 @@ function App() {
 			if(distance < 0){
 				clearInterval(interval.current);
 			}else{
-				setTimerDays(0);
+				setTimerDays(days);
 				setTimerHours(hours);
 				setTimerMinutes(minutes);
 				setTimerSeconds(seconds);
+				setAhora0(distance);
 			}
 				console.log(timerDays);
 
@@ -117,32 +119,32 @@ function App() {
 		        <section className="clockSeccion">
 			        <div className="clock">
 			        	<h2 className="clockText">TE AMO</h2>
-			        	{timerDays != 0 ? 
-			        	<div>
-			        		<h1 className="clockText_2">Faltan</h1>
-				        	<div className="clock_container">
-				        		<div className="time_container dias">
-				        			<h1>{timerDays}</h1>
-				        			<strong>Días</strong>
+				        {ahora0 != 0 ?
+					        	<div>
+					        		<h1 className="clockText_2">Faltan</h1>
+						        	<div className="clock_container">
+						        		<div className="time_container dias">
+						        			<h1>{timerDays}</h1>
+						        			<strong>Días</strong>
+							        	</div>
+							        	<div className="time_container horas">
+							        		<h1>{timerHours}</h1>
+						        			<strong>Horas</strong>
+							        	</div>
+							        	<div className="time_container minutos">
+							        		<h1>{timerMinutes}</h1>
+						        			<strong>Minutos</strong>
+							        	</div>
+							        	<div className="time_container segundos">
+							        		<h1>{timerSeconds}</h1>
+						        			<strong>Segundos</strong>
+							        	</div>
+					        		</div>
+					        		<h1 className="clockText_2">para nuestro 4to aniversario MI AMOR</h1>
 					        	</div>
-					        	<div className="time_container horas">
-					        		<h1>{timerHours}</h1>
-				        			<strong>Horas</strong>
-					        	</div>
-					        	<div className="time_container minutos">
-					        		<h1>{timerMinutes}</h1>
-				        			<strong>Minutos</strong>
-					        	</div>
-					        	<div className="time_container segundos">
-					        		<h1>{timerSeconds}</h1>
-				        			<strong>Segundos</strong>
-					        	</div>
-			        		</div>
-			        		<h1 className="clockText_2">para nuestro 4to aniversario</h1>
-			        	</div>
-			        	:
-			        		<h2 className="clockText">FELIZ ANIVERSARIO N°4</h2>
-			        	}
+				        	:
+				        		 <h2 className="clockText">FELIZ ANIVERSARIO N°4</h2>
+				        	}
 			        	
 			        </div>
 		        </section>
