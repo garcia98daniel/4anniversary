@@ -118,7 +118,7 @@ function App() {
 		        <section className="clockSeccion">
 			        <div className="clock">
 			        	<h2 className="clockText">TE AMO</h2>
-				        {ahora0 != 0 ?
+				        {ahora0 <= 0 ?
 					        	<div>
 					        		<h1 className="clockText_2">Faltan</h1>
 						        	<div className="clock_container">
