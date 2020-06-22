@@ -45,6 +45,7 @@ function App() {
 			const hours = Math.floor((distance % (1000 * 60 * 60 *24) / (1000 * 60 * 60)));
 			const minutes = Math.floor((distance % (1000 * 60 * 60 )) / (1000 * 60));
 			const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+				// console.log(distance);
 
 			if(distance < 0){
 				clearInterval(interval.current);
@@ -55,7 +56,6 @@ function App() {
 				setTimerSeconds(seconds);
 				setAhora0(distance);
 			}
-				console.log(timerDays);
 
 		},1000);
 
@@ -89,7 +89,6 @@ function App() {
 				setAñosTimerMinutes(minutes);
 				setAñosTimerSeconds(seconds);
 			}
-				console.log(timerDays);
 
 		},1000);
 
