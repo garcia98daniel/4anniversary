@@ -14,7 +14,7 @@
 	position: absolute;
 	z-index: -10;
 	width:100%;
-	top: -400px;
+	top: -40%;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -238,6 +238,8 @@ nav ul li a:hover{
 .footer{
 	padding:10px 25px;
 	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
 	justify-content: space-between;
 	position: relative;
 	overflow: hidden;
@@ -256,15 +258,17 @@ nav ul li a:hover{
 	display:flex;
 	justify-content: center;
 	flex-direction: column;
+	flex-grow: 1;
 	width:25%;
 	text-align: justify;
 	z-index: 1;
 	color:white;
+	margin: 20px;
 }
 
 .años{
+	margin:auto;
 	display:flex;
-	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
 	text-align: justify;
@@ -306,6 +310,7 @@ nav ul li a:hover{
 }
 
 .contacto{
+	margin: auto;
 	border-left: 1px solid lightgray;
 	border-right: 1px solid lightgray;
 	padding:30px;
@@ -351,4 +356,114 @@ nav ul li a:hover{
 
 .love1:after {
   top: -25px;
+}
+
+
+@media (max-width: 767px) {
+	.imgs{
+		top:0;
+		height: auto;
+	}
+
+	.love{
+		height: 300px;
+		width: 300px;
+		bottom: 0;
+		top: 300px;
+	}
+
+	.love:before,
+	.love:after {
+		height: 300px;
+		width: 300px;
+	}
+
+	.love:before {
+		top: 0;
+		left: -150px;
+	  }
+	  
+	  .love:after {
+		top: -150px;
+	  }
+
+
+	  .footer{
+		  flex-direction: column;
+		  align-items: center;
+	  }
+
+	  .años{
+		  align-items: center;
+	  }
+
+	  .contacto{
+		  border: none;
+		  padding:20px;
+	  }
+
+	  .message{
+		  width:50%;
+		  text-align: center;
+		  margin: auto;
+	  }
+}
+
+@media (max-width: 525px) {
+	.imgs{
+		height: 100%;
+		width: auto;
+	}
+
+	.letter{
+		height: 200px;
+		font-size: 2em;
+	}
+
+	.años{
+		width: 100%;
+	}
+
+	.clock_container{
+		width: 100%;
+		overflow:scroll;
+	}
+
+	.clockText_2{
+		margin: auto;
+	}
+
+	.time_container{
+		min-width: 100px;
+		min-height: 100px;
+
+	}
+
+	.section_text{
+		font-size: 3em;
+	}
+
+	.message{
+		width: 90%;
+	}
+}
+
+@media (max-width: 425px) {
+	
+	.imgs{
+		left: -30px;
+	}
+	
+}
+
+
+@media (max-width: 375px) {
+	.letter{
+		height: 150px;
+	}
+	
+	.imgs{
+		left: -120px;
+	}
+	
 }
