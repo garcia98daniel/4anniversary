@@ -108,7 +108,7 @@ nav ul li a:hover{
 }
 
 .clock{
-	margin-left: 200px;
+	margin-left: 150px;
 }
 
 .clockText{
@@ -413,6 +413,11 @@ nav ul li a:hover{
 }
 
 @media (max-width: 525px) {
+	.clock{
+		text-align: center;
+		margin:auto;
+	}
+
 	.imgs{
 		height: 100%;
 		width: auto;
@@ -461,6 +466,9 @@ nav ul li a:hover{
 
 
 @media (max-width: 375px) {
+	.clock{
+		font-size: 0.7em;
+	}
 	.letter{
 		height: 150px;
 	}
