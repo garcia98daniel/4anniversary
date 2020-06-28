@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/4anniversary/static/css/main.57993574.chunk.css",
+    "main.js": "/4anniversary/static/js/main.06df4d73.chunk.js",
+    "main.js.map": "/4anniversary/static/js/main.06df4d73.chunk.js.map",
+    "runtime-main.js": "/4anniversary/static/js/runtime-main.8618fd18.js",
+    "runtime-main.js.map": "/4anniversary/static/js/runtime-main.8618fd18.js.map",
+    "static/js/2.c7d5b46f.chunk.js": "/4anniversary/static/js/2.c7d5b46f.chunk.js",
+    "static/js/2.c7d5b46f.chunk.js.map": "/4anniversary/static/js/2.c7d5b46f.chunk.js.map",
+    "index.html": "/4anniversary/index.html",
+    "precache-manifest.39ae70c43f976e8e803c9e5da8aefadc.js": "/4anniversary/precache-manifest.39ae70c43f976e8e803c9e5da8aefadc.js",
+    "service-worker.js": "/4anniversary/service-worker.js",
+    "static/css/main.57993574.chunk.css.map": "/4anniversary/static/css/main.57993574.chunk.css.map",
+    "static/js/2.c7d5b46f.chunk.js.LICENSE.txt": "/4anniversary/static/js/2.c7d5b46f.chunk.js.LICENSE.txt",
+    "static/media/git.png": "/4anniversary/static/media/git.89c2c067.png",
+    "static/media/App.css": "/4anniversary/static/media/heart.cd20ec9b.png",
+    "static/media/ig.png": "/4anniversary/static/media/ig.9721d7b7.png",
+    "static/media/love1.jpeg": "/4anniversary/static/media/love1.9499dc7a.jpeg",
+    "static/media/love2.jpeg": "/4anniversary/static/media/love2.29899335.jpeg",
+    "static/media/loveAño1-1.jpeg": "/4anniversary/static/media/loveAño1-1.4d30b900.jpeg",
+    "static/media/loveAño1-2.jpeg": "/4anniversary/static/media/loveAño1-2.b0dce7e0.jpeg",
+    "static/media/loveAño1-3.jpeg": "/4anniversary/static/media/loveAño1-3.3a6eca47.jpeg",
+    "static/media/loveAño2-1.jpeg": "/4anniversary/static/media/loveAño2-1.a5afd0b5.jpeg",
+    "static/media/loveAño2-2.jpeg": "/4anniversary/static/media/loveAño2-2.342cb457.jpeg",
+    "static/media/loveAño2-3.jpeg": "/4anniversary/static/media/loveAño2-3.0d4ad04f.jpeg",
+    "static/media/loveAño3-1.jpeg": "/4anniversary/static/media/loveAño3-1.7f125fb7.jpeg",
+    "static/media/loveAño3-2.jpeg": "/4anniversary/static/media/loveAño3-2.94960496.jpeg",
+    "static/media/loveAño3-3.jpeg": "/4anniversary/static/media/loveAño3-3.ad2024cc.jpeg",
+    "static/media/loveAño4-1.jpeg": "/4anniversary/static/media/loveAño4-1.cdfefc3e.jpeg",
+    "static/media/loveAño4-2.jpeg": "/4anniversary/static/media/loveAño4-2.d924599c.jpeg",
+    "static/media/loveAño4-3.jpeg": "/4anniversary/static/media/loveAño4-3.1a062135.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8618fd18.js",
+    "static/js/2.c7d5b46f.chunk.js",
+    "static/css/main.57993574.chunk.css",
+    "static/js/main.06df4d73.chunk.js"
+  ]
+}
