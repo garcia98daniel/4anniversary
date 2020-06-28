@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/4anniversary/static/css/main.3733c949.chunk.css",
-    "main.js": "/4anniversary/static/js/main.66dd5902.chunk.js",
-    "main.js.map": "/4anniversary/static/js/main.66dd5902.chunk.js.map",
+    "main.css": "/4anniversary/static/css/main.0ac4fdb5.chunk.css",
+    "main.js": "/4anniversary/static/js/main.06df4d73.chunk.js",
+    "main.js.map": "/4anniversary/static/js/main.06df4d73.chunk.js.map",
     "runtime-main.js": "/4anniversary/static/js/runtime-main.8618fd18.js",
     "runtime-main.js.map": "/4anniversary/static/js/runtime-main.8618fd18.js.map",
     "static/js/2.c7d5b46f.chunk.js": "/4anniversary/static/js/2.c7d5b46f.chunk.js",
     "static/js/2.c7d5b46f.chunk.js.map": "/4anniversary/static/js/2.c7d5b46f.chunk.js.map",
     "index.html": "/4anniversary/index.html",
-    "precache-manifest.c36a20a2ed9dba52dbc72fc892220fae.js": "/4anniversary/precache-manifest.c36a20a2ed9dba52dbc72fc892220fae.js",
+    "precache-manifest.f25ccf95c0441e606e9bffd2ebc60e09.js": "/4anniversary/precache-manifest.f25ccf95c0441e606e9bffd2ebc60e09.js",
     "service-worker.js": "/4anniversary/service-worker.js",
-    "static/css/main.3733c949.chunk.css.map": "/4anniversary/static/css/main.3733c949.chunk.css.map",
+    "static/css/main.0ac4fdb5.chunk.css.map": "/4anniversary/static/css/main.0ac4fdb5.chunk.css.map",
     "static/js/2.c7d5b46f.chunk.js.LICENSE.txt": "/4anniversary/static/js/2.c7d5b46f.chunk.js.LICENSE.txt",
     "static/media/git.png": "/4anniversary/static/media/git.89c2c067.png",
     "static/media/App.css": "/4anniversary/static/media/heart.cd20ec9b.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.8618fd18.js",
     "static/js/2.c7d5b46f.chunk.js",
-    "static/css/main.3733c949.chunk.css",
-    "static/js/main.66dd5902.chunk.js"
+    "static/css/main.0ac4fdb5.chunk.css",
+    "static/js/main.06df4d73.chunk.js"
   ]
 }
